@@ -139,3 +139,5 @@ GitHub.sublime-settings
 # Mine
 token.txt
 client.py
+local_settings.py
+
