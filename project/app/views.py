@@ -25,7 +25,6 @@ class MessageView(APIView):
                 local_settings.TOKEN,
                 msg,
             )
-
             return Response(serializer.data, status=201)
         else:
             return Response(serializer.error, status=400)
