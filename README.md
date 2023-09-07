@@ -35,5 +35,5 @@ python manage.py runserver
 ### Использование
 - Зарегистрироваться `http://localhost:8000/api/v1/rest-auth/register/`
 - Войти в систему и получить токен `http://localhost:8000/api/v1/rest-auth/login/`
-- Для получения всех сообщений GET method`http://localhost:8000/api/v1/app/`
-- Для загрузки и отправки сообщения в Телеграм бот POST `http://localhost:8000/api/v1/app/`
+- Для получения всех сообщений GET method `http://localhost:8000/api/v1/app/`
+- Для загрузки и отправки сообщения в Телеграм бот POST method `http://localhost:8000/api/v1/app/`
